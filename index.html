@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Lesta Games</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Отклик на вакансию <br>
+                Junior Frontend Developer</h1>
+            <div class="header__wrap">
+                <div class="header__author">Иодко Дарья</div>
+                <a href="tel:+79217983308" class="header__tel">+7(921)798-33-08</a>
+                <a href="https://github.com/estauerum"><img src="github.svg" alt="github"></a>
+                <a href="https://t.me/estauerum"><img src="tg.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <section class="first">
+        <div class="container">
+            <h2 class="title">5 новостных публикаций</h2>
+            <div class="first__wrap">
+                <div class="first__block first__block_fw">Ссылка на новость</div>
+                <div class="first__block first__block_fw">Какую задачу решает эта новость?</div>
+                <div class="first__block first__block_fw">Почему это оформление лучшим образом подходит для этой задачи?</div>
+                <div class="first__block"><a href="https://worldoftanks.eu/ru/news/updates/micro-patch-070223/">ссылка1</a></div>
+                <div class="first__block">Оповещает пользователя о причинах, по которым игра будет недоступна в определенный промежуток времени</div>
+                <div class="first__block">На фоновой картинке изображены детали, что говорит и технических работах. Кратко указаны причины и сами изменения, так как новость не масштабная</div>
+                <div class="first__block"><a href="https://worldoftanks.eu/ru/content/guide/map-guides/map-guide-redshire/">ссылка2</a></div>
+                <div class="first__block">Помогает пользователям выбрать верную стратегию на данной карте исходя из выбранного танка</div>
+                <div class="first__block">Много интерактивных возможностей взаимодействия с картой, правила пользования которыми обьяснены в тексте перед картой</div>
+                <div class="first__block"><a href="https://worldoftanks.eu/ru/news/specials/sherman-tanks-feb-2023/">ссылка3</a></div>
+                <div class="first__block">Рассказывает о грядущей акции</div>
+                <div class="first__block">Дополнительная инфа снесена в аккордеоны, не отвлекает пользователя от основной инфы. Иконка «будильника» говорит о времени проведения данной акции. Яркая кнопка «купить» на темном фоне привлекает внимание.</div>
+                <div class="first__block"><a href="https://worldoftanks.eu/ru/news/updates/1-20-CT-1/">ссылка4</a></div>
+                <div class="first__block">Показаны изменения в карте</div>
+                <div class="first__block">Удобный слайдер скриншотов. Медиаплейер позволяющий слушать музыку. Наглядный механизм «ползунок» позволяющий увидеть «до» и «после» изменений</div>
+                <div class="first__block"><a href="https://worldoftanks.eu/ru/news/general-news/experimental-equipment-update2/">ссылка5</a></div>
+                <div class="first__block">Изменение параметров оборудования</div>
+                <div class="first__block">Табы с таблицей помогают распределить и подать информацию пользователю</div>
+            </div>
+        </div>
+    </section>
+    <section class="second">
+        <div class="container">
+            <h2 class="title">Главная статья каждого месяца — патч-ноут</h2>
+            <div class="second__changes">Изменения в лучшую сторону в статье 22 года:
+                <ol>
+                    <li>Все сферы обновления разделены на подразделы и их описания спрятаны в подзаголовки, которые можно прочитать при нажатии «развернуть». Позволяет пользователю легко и быстро найти интересующие его сферы обновления</li>
+                    <li>В самом начале статьи обьявлен конкурс на подарок при внимательном прочтении статьи. Побуждает читателя читать все для получения приза</li>
+                    <li>Добавлено больше интерактивностей для читателя: различные скроллы и кликающиеся таблицы</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section class="three">
+        <div class="container">
+            <h2 class="title">Анализ страницы «Об игре»</h2>
+            <ol class="three__analysis">
+                <li>Блок с классом «about-page__video-block» стоит расположить ниже, а не на фоновой картинке. Карточки «youtube-thumbnail _responsive» смешиваются с фоном из-за чего глазам становится тяжело акцентировать на чем-то одном внимание</li>
+                <li>Иконки по возможности стоит делать в формате svg, формат png в случае иконок дешевит общий дизайн пиксельностью</li>
+                <li>Сделать отступы между картинками в карусели «Галерея сражений», без отступов все сливается</li>
+            </ol>
+        </div> 
+    </section>
+    <section class="tictactoe">
+        <div class="container">
+            <div id="game">
+                <div class="table">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                            <td>
+                                <div class="inner"></div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="winning"></div>
+                </div>
+                <div id="win_block">
+                    <span class="winner"></span>
+                    <span class="again">Играть еще!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
